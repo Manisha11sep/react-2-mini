@@ -22,8 +22,7 @@ export default class TextContainer extends Component {
              color : this.props.fontColor ,
              fontSize : this.props.fontSize,
              fontFamily : this.props.fontFamily
-             
-
+            
             }}
           onChange={this.updateText}
           value={this.state.text} 
